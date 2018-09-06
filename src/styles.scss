@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap.scss";
+.bg-black {
+    background-color: #222222 !important;
+}
+
+.form-box {
+    width: 360px;
+    margin: 90px auto 0 auto;
+}
+
+.form-box1 {
+    width: 100%;
+    margin: 90px auto 0 auto;
+}
+
+.form-box .body>.form-group>input,
+.form-box .footer>.form-group>input {
+    border: #fff;
+}
+
+.form-control {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    box-shadow: none;
+}
+
+.form-box .header {
+    background: #17a2b8;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.form-box .body,
+.form-box .footer {
+    padding: 10px 20px;
+    background: #fff;
+    color: #444;
+}
+
+.form-box .body>.form-group,
+.form-box .footer>.form-group {
+    margin-top: 20px;
+}
+
+.bg-gray {
+    background-color: #eaeaec !important;
+}
+
+.form-box .body,
+.form-box .footer {
+    padding: 10px 20px;
+    background: #fff;
+    color: #444;
+}
+
+.form-box .body>.btn,
+.form-box .footer>.btn {
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-weight: 500;
+    color: #f9f9f9 !important;
+}
+
+a {
+    font-weight: 500;
+    color: #f9f9f9 !important;
+    text-decoration: none;
+}
+
+.bg-blue {
+    background-color: #17a2b8 !important;
+}
+
+.title h3 {
+    padding: 2rem 0rem 1rem 0rem;
+    color: #f9f9f9;
+}
+
+.dashboard {
+    background-color: #f9f9f9;
+    color: #495057;
+}
+
+table .bg-blue {
+    color: #fff;
+}
+
+table th {
+    color: #61554c;
+}
+
+.number {
+    width: 4rem;
+}
+
+.back_button {
+    width: 15rem;
+    margin: 0rem 0rem 1rem 1rem;
+    padding-bottom: 1rem;
+}
